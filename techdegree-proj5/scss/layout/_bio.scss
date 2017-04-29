@@ -1,0 +1,56 @@
+
+.bio {
+  @extend %centered;  
+  max-width: 90%;
+  margin: 0 $margin;
+    
+    @media screen and #{$brk-wide}{
+        display: inline-block;
+        align-content: center;
+    }
+    
+    
+    & img {
+  max-width: 70%;
+  margin: 0 $margin;
+  margin-top: 20px;
+    
+    @media screen and #{$brk-narrow} {
+           max-width: 50%;
+           float: right;
+    }
+   
+    @media screen and #{$brk-wide}{
+        max-width: 50%;
+        float: right;
+        
+    }
+    
+        }
+
+        & p {
+          padding: 0 10px;
+          color: $dove-grey;
+          font-size: 1em;
+
+            @media screen and #{$brk-narrow} {
+                max-width: 50%;
+                float: left;
+                font-size: 1.4em;
+                text-align: left;
+            }
+
+            @media screen and #{$brk-wide}{
+
+                  max-width: 50%;
+                float: left;
+                font-size: 1.4em;
+                text-align: left;
+            }
+
+        }
+    
+    
+}
+
+

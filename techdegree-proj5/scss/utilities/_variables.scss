@@ -1,0 +1,25 @@
+//color variables
+
+$white          : #fff;
+$black          : #000;
+$alabaster      :#F8F8F8;
+$dove-grey      :#666;
+$fountain-blue  :#52bab3;
+$tundora        :#424242;
+$gray           :#8a8a8a;
+$rolling-stone  :#797e83;
+//functional color variables
+
+$main-bkrnd-color : $alabaster;
+
+//Font-stack
+$stack-sans-serif : Helvetica, Arial, sans-serif;
+$stack-open-sans  : 'Open Sans', $stack-sans-serif;
+
+//other variables
+$margin : auto;
+
+//media query breakpoints
+
+$brk-narrow :'(min-width: 768px) and (max-width: 1023px)';
+$brk-wide   :'(min-width: 1024px)';

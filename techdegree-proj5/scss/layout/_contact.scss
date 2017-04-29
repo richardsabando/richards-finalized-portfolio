@@ -1,0 +1,43 @@
+/* Contact Section */
+
+#contact {
+  @extend %centered;
+  padding: 60px 0;
+  border-bottom: 1px solid $main-bkrnd-color;
+  border-bottom-width: thin;
+  max-width: 90%;
+  margin: 0 $margin;
+}
+
+.contact-title {
+  font-size: .9em;
+  padding-bottom: 35px;
+}
+
+#contact ul {
+  margin-top: 30px;
+}
+
+#contact li {
+  margin-bottom: 15px;
+}
+
+#contact h3 {
+  display: inline;
+  font-weight: 200;
+  font-size: 1em;
+  color: $dove-grey;
+}
+#contact p {
+  max-width: 90%;
+  margin: 0 $margin;
+  color: $dove-grey;
+  font-size: 1em;
+}
+
+#contact a {
+  padding-left: 10px;
+  font-weight: 600;
+  color: $dove-grey;
+}
+
