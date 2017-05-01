@@ -88,5 +88,15 @@ sr.reveal('.social4', {
           viewFactor: 0.2
         });
 
+sr.reveal('#downArrow', {
+          duration: 1000,
+          origin:'top',
+          delay: 1600,    
+         distance: '90px'
+        });
+
+
+
+
 //smooth scrolling coming soon
 
